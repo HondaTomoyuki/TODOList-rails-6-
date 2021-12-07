@@ -13,8 +13,7 @@
 ActiveRecord::Schema.define(version: 2021_12_07_021657) do
 
   create_table "todos", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
-    t.string "Title"
-    t.text "Detail"
+    t.text "title"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
